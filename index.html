@@ -3,48 +3,94 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfolio</title>
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
         <style>
+          *{
+            margin: 0px;
+            padding: 0px;
+          }
             body{
-                font-family: Helvetica, Arial,  sans-serif;
+              font-family: 'Noto Sans', sans-serif;
             }
-            
-            h1, h3{
-                color:lightslategray;
+            .quem{
+                color: rgb(187, 187, 187);
+                background-image: url(background-header.jpg);
+                background-size: cover;
+                height: 250px;
+                padding: 10px;
             }
+
+            .mainfoto{
+              position: fixed;
+              display: inline;
+              border-radius: 40%;    
+              margin-left: 20px;   
+              margin-top: 20px;       
+            }
+
+            .who{
+              margin-left: 450px;
+              margin-top: 120px;
+
+            }
+
+            .title{
+              font-size: 2.5em;
+              color:white;
+            }
+
+            .educ{
+              margin-left: 450px;
+              margin-top: 100px;
+            }
+
+            .mainsec{
+              margin-left: 50px;
+              margin-top: 200px ;
+              margin-right: 50px;
+            }
+
+            .parag{
+              margin-top: 10px;
+              text-align: justify;
+            }
+
+            .parag:hover{
+              color: rgb(102, 115, 160);
+            }
+
+
+
+
+
+        
 
 
         </style>
     </head>
     <body>
-        <h1 id="quem">Anna Laura Soldi Leite Hamann</h1>
-        <br>
-        <img id="foto" src="anna.jpg" width="350px">
-        <br><br>
-        <h3 id="info">Informações</h3>
+        <header class="quem">
+          
+          <img class="mainfoto" src="annabw.jpg" width="350px">
+          <nav class="who"><p class="title"><strong>Anna Laura Soldi Leite Hamann</strong></p>
+          <p><strong>Lawyer, Engineer & Full Stack Web Development Student</strong></p></nav>
+          <section class="educ">Universidade de Taubaté<br>Universidade do Vale do Paraíba<br>Faculdade Legale<br>Trybe</section>
+        </header>
         
-        <p><strong>Advogada</strong> e <strong>Engenheira Ambiental e Sanitarista</strong>, atualmente estuda 
-            <em>Desenvolvimento Web</em> na Trybe, e faz <strong>pós graduação</strong> em Lei Geral de Proteção de Dados e Direito Empresarial.
-         Residindo em Taubaté-SP, no coração do Vale do Paraíba é entusiasta por novos conhecimentos.</p>
-         <br>
-         <h3 id ="skills">Habilidades</h3>
-         <p>Entre as habilidades, é importante destacar a <strong>capacidade de atuar em diversos campos de conhecimento</strong>,
-             mas não limitada aos que já possui, eis que o que lhe move é a busca por novos conhecimentos e capacidades, sempre.
-              Motivação, alto astral e dedicação são outras habilidades que se somam a essa pessoa desenvolvedora.
-         </p>
-         <h3 id="links">Veja mais:</h3>
-         <br><p><a href="#foto">Veja uma foto de Anna Hamann</a>, ou até mesmo visite a página da <a href="http://www.betrybe.com" target="_blank">Trybe</a>, 
-         a escola maravilhosa em que a Anna Hamann estuda.</p>
-
-        <br><br><br>
-
-        <h3>Navegue por aqui:</h3>
-        <ol>
-            <li><a href="#quem">Quem é Anna Hamann</a></li>
-            <li><a href="#foto">Veja uma foto</a></li>
-            <li><a href="#info">Informações</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#links">Links</a></li>
-        </ol>
- 
+        <section class="mainsec">
+          <h4>Trajetória</h4>
+          <p class="parag">Formada em <strong>Engenharia Ambiental e Sanitarista </strong> pela Unitau, em 2006, graduou-se ao mesmo tempo em <strong>Direito</strong>, pela Universidade do Vale do Paraíba,
+             em 2007. Naquela época, cursava direito pela manhã e engenharia à noite.</p>
+          <p class="parag">Após atuar por um tempo mais focada em engenharia, onde prestou consultoria a grandes empresas como <em>Embraer, Peugeout/Citroen, Renault do Brasil, Basf</em>, entre outros grandes players, 
+            tendo também prestado consultoria em diversas empresas de médio porte, dedicou-se ao direito com mais foco a partir de 2009, quando abriu sua 
+            banca de advocacia, de nome <strong>Soldi Hamann</strong>, onde espealizou-se em <em>direito empresarial e franchising</em>.</p>
+          <p class="parag">No ramo de franchising, teve duas franquias de ramos distintos, uma na área de educação e outra na área de beleza, em experiências que duraram cerca de cinco anos</p>
+          <p class="parag">Em 2018 passou a se interessar, mais profundamente, por programação e automação de atividades, tendo desenvolvido um software de gestão de escritório de advocacia para si, de forma <em>autodidata</em>, e entendendo o quanto
+            a tecnologia será, cada vez mais, indissociável de todas as profissões, decidiu estudar desenvolvimento de software na Trybe.</p>
+            <p class="parag">Nesse entendimento, cursa também pós graduação em <strong>Lei Geral de Proteção de Dados</strong> e outra em <em>Direito Empresarial</em>, além de estar em fase final em sua pós gradução em <em>Direito Previdenciário</em>.</p>
+          
     </body>
 </html>
