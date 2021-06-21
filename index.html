@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Portfolio</title>
+        <title>Who am I?</title>
         <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -15,27 +15,38 @@
             body{
               font-family: 'Noto Sans', sans-serif;
             }
-            .quem{
+
+            .topo{
+              height: 400px;
+      
+              display: inline-block;
+            }
+            
+            
+                        .quem{
                 color: rgb(187, 187, 187);
                 background-image: url(background-header.jpg);
                 background-size: cover;
                 height: 250px;
                 padding: 10px;
-                display: block;
+                display: inline-block;
             }
 
             .mainfoto{
-              position: fixed;
+              /* position: fixed; */
               display: inline;
-              border-radius: 40%;    
-              margin-left: 20px;   
-              margin-top: 20px;       
+                           margin-left: 20px;   
+              margin-top: 20px;    
+              width: 30%; 
+              float:left;
             }
 
             .who{
-              margin-left: 450px;
+              margin-left: 50px;
               margin-top: 120px;
-
+              display: block;
+              float: right;
+              width: 60%;
             }
 
             .title{
@@ -45,12 +56,17 @@
 
             .educ{
               margin-left: 450px;
-              margin-top: 100px;
+              /* margin-top: 100px; */
+
+              display: block;
+
+              float: right;
+              width: 60%;
             }
 
             .mainsec{
               margin-left: 50px;
-              margin-top: 200px ;
+              margin-top: 50px ;
               margin-right: 50px;
               display: block;
             }
@@ -62,10 +78,21 @@
 
             .parag:hover{
               color: rgb(102, 115, 160);
+              border-left: 5px;
+              padding: 15px;
+              border-top: 0px;
+              border-right: 0px;
+              border-bottom: 0px;
+              border-style: solid;
+              border-color: darkslateblue;
             }
             .navlink{
               line-height: 30px;
               text-decoration: none;
+            }
+
+            .ptop{
+              margin-top: 30px;
             }
 
             #logo{
@@ -74,15 +101,25 @@
               margin-top: 50px;
             }
 
+            #pict{
+              border-radius: 40%;   
+              width: 100%; 
+            }
+
         </style>
     </head>
     <body>
+      <div class="topo">
         <header class="quem">
+          <div class="mainfoto"><img id="pict" src="annabw.jpg"></div>
           
-          <img class="mainfoto" src="annabw.jpg" width="350px">
-          <nav class="who"><p class="title"><strong>Anna Laura Soldi Leite Hamann</strong></p>
-          <p><strong>Lawyer, Engineer & Full Stack Web Development Student</strong></p></nav>
-          <section class="educ">Universidade de Taubaté<br>Universidade do Vale do Paraíba<br>Faculdade Legale<br>Trybe</section>
+          
+          <span class="who"><p class="title"><strong>Anna Laura Soldi Leite Hamann</strong></p>
+          <p><strong>Lawyer, Engineer & Full Stack Web Development Student</strong></p>
+          <p class="ptop">Universidade de Taubaté</p>
+        <p>Universidade do Vale do Paraíba</p><p>Faculdade Legale</p><p>Trybe</p></span>
+         
+          </div>
         </header>
         
         <section class="mainsec">
@@ -93,7 +130,7 @@
             tendo também prestado consultoria em diversas empresas de médio porte, dedicou-se ao direito com mais foco a partir de 2009, quando abriu sua 
             banca de advocacia, de nome <strong>Soldi Hamann</strong>, onde espealizou-se em <em>direito empresarial e franchising</em>.</p>
           <p class="parag">No ramo de franchising, teve duas franquias de ramos distintos, uma na área de educação e outra na área de beleza, em experiências que duraram cerca de cinco anos. 
-            Nessa época se especializou mais profundamente no franchising brasileiro, tendo assessorado a criação de algumas franqueadoras, para as quais presta assessoria continuada até hoje.</p>
+            Nessa época se especializou mais profundamente no <em>franchising</em> brasileiro, tendo assessorado a criação de algumas franqueadoras, para as quais presta assessoria continuada até hoje.</p>
           <p class="parag">Em 2018 passou a se interessar, mais profundamente, por programação e automação de atividades, tendo desenvolvido um software de gestão de escritório de advocacia para si, de forma <em>autodidata</em>, e entendendo o quanto
             a tecnologia será, cada vez mais, indissociável de todas as profissões, decidiu estudar desenvolvimento de software na Trybe.</p>
             <p class="parag">Nesse entendimento, cursa também pós graduação em <strong>Lei Geral de Proteção de Dados</strong> e outra em <em>Direito Empresarial</em>, além de estar em fase final em sua pós gradução em <em>Direito Previdenciário</em>.</p>
