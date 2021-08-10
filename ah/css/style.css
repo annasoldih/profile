@@ -1,0 +1,112 @@
+/* 
+font-family: 'Coda', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Staatliches', cursive;
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.1em;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  color: white;
+}
+
+.ah-sec-full {
+  width: 100%;
+  text-align: center;
+}
+
+.ah-topnav {
+  text-align: left;
+}
+
+.ah-sec-main {
+  width: 700px;
+  margin: auto;
+  text-align: justify;
+}
+
+.ah-top-car{
+  font-size: 5em;
+  text-align: left;
+  
+}
+
+.ah-footer {
+  text-align: left;
+}
+
+
+.phpt{
+  font-size: 3em;
+}
+#showme{
+  display: none;
+}
+
+
+.ah-hello{
+  font-size: 3em;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.ah-sub-hello{
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: 500;
+  color:rgb(255, 217, 0);
+}
+.anna{
+  font-weight: 700;
+  color: rgb(255, 0, 170);
+}
+
+.linkedin-link{
+  text-decoration: none;
+  color: chartreuse;
+  font-size: 1.2em;
+}
+
+
+
+.ah-img-cont{
+  width: 100%;
+}
+.fm-p-blue{
+  color: darkturquoise;
+}
+
+.fm-p-pink{
+  color: rgb(228, 45, 188);
+}
+
+.fm-p-purple{
+  color: rgb(167, 40, 199);
+}
+
+.fm-p-egg{
+  color: rgb(255, 208, 0);
+}
+
+
+@media  (max-width: 699px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  .ah-sec-main {
+    width: 100%;
+  }
+}

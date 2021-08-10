@@ -1,143 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Who am I?</title>
-        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-        <style>
-          *{
-            margin: 0px;
-            padding: 0px;
-          }
-            body{
-              font-family: 'Noto Sans', sans-serif;
-            }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="ah/bs/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="ah/css/style.css" />
+  <link rel="sortcut icon" href="ah/css/icon.ico" type="image/x-icon" />
 
-            .topo{
-              height: 400px;
-      
-              display: inline-block;
-            }
-            
-            
-                        .quem{
-                color: rgb(187, 187, 187);
-                background-image: url(background-header.jpg);
-                background-size: cover;
-                height: 250px;
-                padding: 10px;
-                display: inline-block;
-            }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- adds Roboto, Coda, Roboto Mono, Roboto Condensed, Staatliches, Lato -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Lato&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Staatliches&display=swap"
+    rel="stylesheet">
 
-            .mainfoto{
-              /* position: fixed; */
-              display: inline;
-                           margin-left: 20px;   
-              margin-top: 20px;    
-              width: 30%; 
-              float:left;
-            }
+  <script src="ah/bs/js/bootstrap.js"></script>
+  <script src="https://kit.fontawesome.com/235e48eb65.js" crossorigin="anonymous"></script>
+  <title>Anna Hamann</title>
+</head>
 
-            .who{
-              margin-left: 50px;
-              margin-top: 120px;
-              display: block;
-              float: right;
-              width: 60%;
-            }
-
-            .title{
-              font-size: 2.5em;
-              color:white;
-            }
-
-            .educ{
-              margin-left: 450px;
-              /* margin-top: 100px; */
-
-              display: block;
-
-              float: right;
-              width: 60%;
-            }
-
-            .mainsec{
-              margin-left: 50px;
-              margin-top: 50px ;
-              margin-right: 50px;
-              display: block;
-            }
-
-            .parag{
-              margin-top: 10px;
-              text-align: justify;
-            }
-
-            .parag:hover{
-              color: rgb(102, 115, 160);
-              border-left: 5px;
-              padding: 15px;
-              border-top: 0px;
-              border-right: 0px;
-              border-bottom: 0px;
-              border-style: solid;
-              border-color: darkslateblue;
-            }
-            .navlink{
-              line-height: 30px;
-              text-decoration: none;
-            }
-
-            .ptop{
-              margin-top: 30px;
-            }
-
-            #logo{
-              height: 30px;
-              margin-left: 40px;
-              margin-top: 50px;
-            }
-
-            #pict{
-              border-radius: 40%;   
-              width: 100%; 
-            }
-
-        </style>
-    </head>
-    <body>
-      <div class="topo">
-        <header class="quem">
-          <div class="mainfoto"><img id="pict" src="annabw.jpg"></div>
-          
-          
-          <span class="who"><p class="title"><strong>Anna Laura Soldi Leite Hamann</strong></p>
-          <p><strong>Lawyer, Engineer & Full Stack Web Development Student</strong></p>
-          <p class="ptop">Universidade de Taubaté</p>
-        <p>Universidade do Vale do Paraíba</p><p>Faculdade Legale</p><p>Trybe</p></span>
-         
-          </div>
-        </header>
+<body>
+  <div class="ah-sec-main mt-5">
+    <header id="ah-nav-gb">
+      <p class="phpt"><span class="fm-p-pink"><span id="ah-navphp-top"></span></span></p>
+    </header>
+    <div id="showme">
+      <p><span class="fm-p-pink">require(</span><span class="fm-p-purple">../info</span><span
+          class="fm-p-pink">)</span>;
+      </p>
+      <p><span class="fm-p-blue">echo</span><span class="fm-p-egg"> 'About Me'</span>;</p>
+      <div class="ah-gocol">
+        <div class="ah-hello"><p class="mb-0"> Hello, world!<br>
+          I'm <span class="anna">Anna Hamann</span></p></div>
+        <p class="ah-sub-hello mb-5">lawyer && engineer && developer</p>
         
-        <section class="mainsec">
-          <h4>Trajetória</h4>
-          <p class="parag">Formada em <strong>Engenharia Ambiental e Sanitarista </strong> pela Unitau, em 2006, graduou-se ao mesmo tempo em <strong>Direito</strong>, pela Universidade do Vale do Paraíba,
-             em 2007. Naquela época, cursava direito pela manhã e engenharia à noite.</p>
-          <p class="parag">Após atuar por um tempo mais focada em engenharia, onde prestou consultoria a grandes empresas como <em>Embraer, Peugeout/Citroen, Renault do Brasil, Basf</em>, entre outros grandes players, 
-            tendo também prestado consultoria em diversas empresas de médio porte, dedicou-se ao direito com mais foco a partir de 2009, quando abriu sua 
-            banca de advocacia, de nome <strong>Soldi Hamann</strong>, onde espealizou-se em <em>direito empresarial e franchising</em>.</p>
-          <p class="parag">No ramo de franchising, teve duas franquias de ramos distintos, uma na área de educação e outra na área de beleza, em experiências que duraram cerca de cinco anos. 
-            Nessa época se especializou mais profundamente no <em>franchising</em> brasileiro, tendo assessorado a criação de algumas franqueadoras, para as quais presta assessoria continuada até hoje.</p>
-          <p class="parag">Em 2018 passou a se interessar, mais profundamente, por programação e automação de atividades, tendo desenvolvido um software de gestão de escritório de advocacia para si, de forma <em>autodidata</em>, e entendendo o quanto
-            a tecnologia será, cada vez mais, indissociável de todas as profissões, decidiu estudar desenvolvimento de software na Trybe.</p>
-            <p class="parag">Nesse entendimento, cursa também pós graduação em <strong>Lei Geral de Proteção de Dados</strong> e outra em <em>Direito Empresarial</em>, além de estar em fase final em sua pós gradução em <em>Direito Previdenciário</em>.</p>
-          </section>
 
-          <footer>
-            <a class="navlink" href="https://www.linkedin.com/in/annasoldih/"><img id="logo" src="linkedin.png" alt="Linkedin">Entre em contato pelo Linkedin</a>
-          </footer>
-    </body>
+        <p><a class="linkedin-link mt-5" href="https://www.linkedin.com/in/annasoldih/">Reach me();</a></p>
+
+
+        <p class="my-5"><span class="fm-p-pink">if</span> <span class="fm-p-egg">(</span><span class="fm-p-blue">error</span><span class="fm-p-egg">)</span> <span class="fm-p-pink">{</span>
+          <br><a class="linkedin-link" href="mailto:it@soldi.dev.br">mail(send);</a><br><span class="fm-p-pink">}</span>
+        </p>
+      </div>
+
+      <p class="phpt"><span class="fm-p-pink"><span id="ah-navphp-bot"></span></span></p>
+
+    </div>
+  </div>
+  <script src="ah/scr/script.js"></script>
+</body>
+
 </html>
